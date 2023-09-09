@@ -536,7 +536,7 @@ body {
   color: rgba(67, 68, 85, 1);
 }
 
-/*=====  Footer =====*/
+/*  Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -597,12 +597,6 @@ body {
 
 .social-page-footer {
   padding-left: 0;
-  margin-right: 120px;
-}
-
-.social-form-footer {
-  display: flex;
-  align-items: baseline;
 }
 
 .logo-icon-footer {
@@ -638,136 +632,3 @@ body {
 .footer-icon-aside:focus {
   background-color: #31d0aa;
 }
-
-/* .form-container {
-  display: block;
-} */
-
-.footer-form {
-  margin: auto;
-  margin: auto;
-}
-
-.form-email-label {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-}
-
-.footer-form-email {
-  display: flex;
-  align-items: flex-end;
-  gap: 24px;
-}
-
-.email-footer {
-  width: 264px;
-  height: 40px;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  margin-top: 24px;
-  background: #2e2f42;
-  border-radius: 4px;
-  border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.footer-button {
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: #4d5ae5;
-  display: inline-flex;
-  padding: 8px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  border-radius: 4px;
-}
-/*=============  Footer ================*/
-
-/*===== DFCKDROP WITH MODAL WINDOW =====*/
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
-
-  /* opacity: 0;
-  visibility: hidden;
-  pointer-events: none; */
-
-  transition: opacity 500ms linear, visibility 500ms linear;
-}
-
-.backdrop.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.modal {
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 408px;
-  min-height: 584px;
-  padding: 24px;
-  border-radius: 4px;
-  background-color: #fcfcfc;
-}
-
-.close-button-modal {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  background-color: #e7e9fc;
-  border-radius: 50%;
-  border: 1px solid #0000001a;
-  padding: 0;
-  stroke: #2e2f42;
-}
-.close-button-modal:hover,
-.close-button-modal:focus {
-  background-color: #404bbf;
-}
-
-.close-icon-modal {
-  stroke: #2e2f42;
-}
-
-.close-icon-modal:hover,
-.close-icon-modal:focus {
-  fill: #ffffff;
-}
-
-.modal-form-page {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-  margin-top: 72px;
-}
-
-.modal-form {
-  width: 100%;
-  height: 58px;
-}
-/*===== DFCKDROP WITH MODAL WINDOW =====*/
