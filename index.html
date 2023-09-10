@@ -449,7 +449,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-
+      
         <div class="social-page-footer">
           <p class="social-list-text">Social media</p>
           <ul class="social-list-footer">
@@ -483,6 +483,26 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form-email">
+            <label for="form-label-email"></label>
+            <input
+              class="form-input-email"
+              type="email"
+              name="email"
+              id="form-input-email"
+              placeholder="E-mail"
+            />
+            <button class="footer-button-form" type="submit">
+              Subscribe
+              <svg class="icon-frame" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
+        
+      </div>
       </div>
     </footer>
 
@@ -506,46 +526,52 @@
         <form class="form-modal-contact">
           <div class="form-label">
             <label class="modal-form-list" for="user-name"> Name</label>
-            <input
-              class="modal-form"
-              type="text"
-              name="user-name"
-              id="user-name"
-              pattern="[A-Za-zА-Яа-яїЇіІЄєґҐ']+"
-              value=""
-              placeholder=""
-            />
-            <svg width="18" height="18">
-              <use href="./images/icons.svg#icon-personp"></use>
-            </svg>
+            <div class="input-icon">
+              <input
+                class="modal-form"
+                type="text"
+                name="user-name"
+                id="user-name"
+                pattern="[A-Za-zА-Яа-яїЇіІЄєґҐ']+"
+                value=""
+                placeholder=""
+              />
+              <svg class="icon-form" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-label">
             <label class="modal-form-list" for="user-phone">Phone</label>
-            <input
-              class="modal-form"
-              type="tel"
-              name="user-phone"
-              id="user-phone"
-              value=""
-              placeholder=""
-            />
-            <svg width="18" height="24">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
+            <div class="input-icon">
+              <input
+                class="modal-form"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                value=""
+                placeholder=""
+              />
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-label">
             <label class="modal-form-list" for="user-email">Email</label>
-            <input
-              class="modal-form"
-              type="email"
-              name="user-email"
-              id="user-email"
-              value=""
-              placeholder=""
-            />
-            <svg width="18" height="24">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
+            <div class="input-icon">
+              <input
+                class="modal-form"
+                type="email"
+                name="user-email"
+                id="user-email"
+                value=""
+                placeholder=""
+              />
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="form-label">
             <label class="modal-form-list" for="user-comment"></label>
@@ -553,8 +579,7 @@
               class="comment-modal-form"
               name="user-comment"
               id="user-comment"
-              placeholder="Text input"
-            >
+              placeholder="Text input"></textarea>
             </textarea>
           </div>
           <div class="modal-checkbox">
@@ -566,8 +591,7 @@
               id="user-checkbox"
             />
             <label class="checkbox-form-label" for="user-checkbox">
-              <span class="checkbox"></span> I accept the terms and conditions
-              of the <a href="">Privacy Policy</a></label
+              <span class="checkbox"></span> I accept the terms and conditions of the <a href="">Privacy Policy</a></label
             >
           </div>
         </form>
