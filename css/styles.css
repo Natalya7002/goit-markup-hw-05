@@ -895,7 +895,7 @@ body {
 .modal-checkbox-form:checked + .checkbox-form-label > .checkbox-text {
   border: none;
   background-color: #404bbf;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .modal-checkbox-link:focus {
