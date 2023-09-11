@@ -888,25 +888,18 @@ body {
   fill: transparent;
 }
 
-.checkbox:checked + .checkbox-text {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+.modal-checkbox-link {
+  color: #4d5ae5;
 }
 
-.modal-checkbox-form:checked
-  + .checkbox-form-label
-  > .checkbox-text
-  > .checkbox-icon-modal {
-  stroke: #fcfcfc;
-  fill: #f4f4fd;
-  background-color: #404bbf;
+.modal-checkbox-form:checked + .checkbox-form-label > .checkbox-text {
   border: none;
+  background-color: #404bbf;
+  fill: #ffffff;
 }
 
-.checkbox-icon-modal {
-  fill: transparent;
-  stroke: transparent;
+.modal-checkbox-link:focus {
+  color: #404bbf;
 }
 
 .button-modal-form-send {
@@ -927,8 +920,4 @@ body {
 
   margin-top: 24px;
   transform: translateX(50%);
-}
-
-.modal-checkbox-link {
-  color: #4d5ae5;
 }
