@@ -896,7 +896,7 @@ body {
 
 .modal-checkbox-form:checked
   + .checkbox-form-label
-  > .checkbox
+  > .checkbox-text
   > .checkbox-icon-modal {
   stroke: #fcfcfc;
   fill: #f4f4fd;
